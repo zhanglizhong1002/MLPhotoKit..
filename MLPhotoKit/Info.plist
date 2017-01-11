@@ -34,5 +34,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>xcode8之后必须加</string>
+	<key>NSCameraUsageDescription</key>
+	<string>xcode8之后必须加</string>
 </dict>
 </plist>
