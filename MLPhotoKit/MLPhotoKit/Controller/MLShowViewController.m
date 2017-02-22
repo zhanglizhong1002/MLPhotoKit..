@@ -231,7 +231,7 @@
                 
                 //遍历获取相册
                 if ([collection isKindOfClass:[PHAssetCollection class]]) {
-                    if ([collection.localizedTitle isEqualToString:@"相机胶卷"] || [collection.localizedTitle isEqualToString:@"Camera Roll"]) {
+//                    if ([collection.localizedTitle isEqualToString:@"相机胶卷"] || [collection.localizedTitle isEqualToString:@"Camera Roll"]) {
                         PHAssetCollection *assetCollection = (PHAssetCollection *)collection;
                         PHFetchResult *fetchResult = [PHAsset fetchAssetsInAssetCollection:assetCollection options:nil];
                         NSArray *assets;
@@ -242,7 +242,7 @@
                             [allPhots addObjectsFromArray:assets];
                             
                         }
-                    }
+//                    }
                 }
             }
             /** 最后一张照片为刚刚拍照传上去的 */
